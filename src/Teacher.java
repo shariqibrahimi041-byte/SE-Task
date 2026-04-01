@@ -69,6 +69,8 @@ public class Teacher{
         for(int i=0; i<count; i++) {
             if(names[i].toLowerCase().contains(find.toLowerCase())) {
                 System.out.println("Found: " + names[i] + " - " + subjects[i]);
+                System.out.println("Found name");
+
                 return;
             }
         }
